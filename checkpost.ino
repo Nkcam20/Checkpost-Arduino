@@ -20,12 +20,12 @@ long readUltrasonicDistance(int triggerPin, int echoPin)
 
 void setup() {
   digitalWrite(12,LOW);
-  myservo.attach(9);
+  myservo.attach(9); // 9 is the servo control pin, orange cable
   Serial.begin(9600);
 }
 
 void loop() {
-  cm = 0.01723 * readUltrasonicDistance(6, 7);
+  cm = 0.01723 * readUltrasonicDistance(6, 7); // 6 is the Trig pin and 7 is the echo pin
   myservo.write(0);
 
   if(cm<20 && cm != 0){
