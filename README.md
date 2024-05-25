@@ -10,8 +10,10 @@ Jumpers and breadboard: 40INR
 
 ## Credits: 
 [Souhrud Reddy](https://github.com/sounddrill) for code assistance 
+
 [Nanda Kumar](https://Nkcam20) for project
-Simple Circuits for Video and Base Code
+
+[Simple Circuits](https://www.youtube.com/watch?v=PFF4DTkMsaM) for Video and Base Code
 
 ## Pins:
 ### Arduino Uno - > HC04
