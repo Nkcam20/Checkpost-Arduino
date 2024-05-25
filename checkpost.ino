@@ -28,14 +28,14 @@ void loop() {
   cm = 0.01723 * readUltrasonicDistance(6, 7);
   myservo.write(0);
 
-  if(cm<5 && cm != 0){
+  if(cm<20 && cm != 0){
     Serial.print(cm);
     Serial.println("cm");
 
     myservo.write(120); // move servo to high position
 
     // wait for 30 ms before bringing servo back
-    delay(3000);
+    delay(1000);
   } else {
     myservo.write(0); // hold servo at 0 position
     delay(20);
