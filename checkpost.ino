@@ -1,6 +1,6 @@
 #include <Servo.h>
 
-Servo myservo;   
+Servo myservo;
 
 int pos = 0;
 
@@ -8,7 +8,7 @@ int cm = 0;
 
 long readUltrasonicDistance(int triggerPin, int echoPin)
 {
-  pinMode(triggerPin, OUTPUT); 
+  pinMode(triggerPin, OUTPUT);
   digitalWrite(triggerPin, LOW);
   delayMicroseconds(2);
   digitalWrite(triggerPin, HIGH);
@@ -18,31 +18,26 @@ long readUltrasonicDistance(int triggerPin, int echoPin)
   return pulseIn(echoPin, HIGH);
 }
 
-
-
 void setup() {
   digitalWrite(12,LOW);
-  myservo.attach(9); 
+  myservo.attach(9);
   Serial.begin(9600);
 }
 
 void loop() {
-   cm = 0.01723 * readUltrasonicDistance(6, 7);
+  cm = 0.01723 * readUltrasonicDistance(6, 7);
+  myservo.write(0);
 
-  if(cm<30){
-  Serial.print(cm);
-  Serial.println("cm");
-  
- for (pos = 0; pos <= 120; pos += 1) { 
-    myservo.write(pos);             
-   delay(15);                       
-  }
-  delay(500);
+  if(cm<5 && cm != 0){
+    Serial.print(cm);
+    Serial.println("cm");
 
-  for (pos = 120; pos >= 0; pos -= 1) { 
-    myservo.write(pos);
-    delay(15);                                     
+    myservo.write(120); // move servo to high position
+
+    // wait for 30 ms before bringing servo back
+    delay(3000);
+  } else {
+    myservo.write(0); // hold servo at 0 position
+    delay(20);
   }
-  delay(15); 
-  }                          
 }
