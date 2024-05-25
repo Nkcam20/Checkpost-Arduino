@@ -11,7 +11,7 @@ Jumpers and breadboard: 40INR
 ## Credits: 
 [Souhrud Reddy](https://github.com/sounddrill) for code assistance 
 
-[Nanda Kumar](https://Nkcam20) for project
+[Nanda Kumar](https://Nkcam20) for project idea and parts
 
 [Simple Circuits](https://www.youtube.com/watch?v=PFF4DTkMsaM) for Video and Base Code
 
@@ -28,3 +28,6 @@ Jumpers and breadboard: 40INR
 - 5v to Red wire
 - GND to Black wire
 - D9 to Orange wire
+
+### Demo
+![Video](assets/demo.mp4)
