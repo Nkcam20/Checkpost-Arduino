@@ -3,10 +3,10 @@ Making an automatic sensor enabled model Traffic Stop/Checkpost
 
 
 ## BOM:
-Arduino Uno(Clone Board): 250 INR
-HC-04 Ultrasonic Board 45 INR
-SG90 Servo: 80 INR
-Jumpers and breadboard: 40INR
+- Arduino Uno(Clone Board): 250 INR
+- HC-04 Ultrasonic Board 45 INR
+- SG90 Servo: 80 INR
+- Jumpers and breadboard: 40INR
 
 ## Credits: 
 [Souhrud Reddy](https://github.com/sounddrill) for code assistance 
