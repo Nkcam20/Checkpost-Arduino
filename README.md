@@ -9,7 +9,7 @@ Making an automatic sensor enabled model Traffic Stop/Checkpost
 - Jumpers and breadboard: 40INR
 
 ## Credits: 
-[Souhrud Reddy](https://github.com/sounddrill) for code assistance 
+[Souhrud Reddy](https://github.com/sounddrill31) for code assistance 
 
 [Nanda Kumar](https://Nkcam20) for project idea and parts
 
