@@ -13,7 +13,11 @@ Jumpers and breadboard: 40INR
 
 [Nanda Kumar](https://Nkcam20) for project idea and parts
 
-[Simple Circuits](https://www.youtube.com/watch?v=PFF4DTkMsaM) for Video and Base Code
+[Simple Circuits](https://www.youtube.com/@SimpleCircuits.) for Video and Base Code
+
+[Video link](https://www.youtube.com/watch?v=PFF4DTkMsaM)
+
+[Base code link](https://simplecircuitslol.blogspot.com/2024/02/arduino-code.html)
 
 ## Pins:
 ### Arduino Uno - > HC04
@@ -37,5 +41,5 @@ Jumpers and breadboard: 40INR
 />](https://www.youtube.com/embed/uge06T4vtuA)
 
 
-Video link:
+Deno Video link:
 https://www.youtube.com/watch?v=uge06T4vtuA
